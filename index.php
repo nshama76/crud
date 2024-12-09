@@ -168,7 +168,7 @@ table.table td i {
             <div class="table-title">
                 <div class="row">
                     <div class="col-sm-5">
-                        <h2>User <b>Management</b></h2>
+                        <h2>User <b>Management system</b></h2>
                     </div>
                        <div class="col-sm-7" align="right">
                         <a href="insert.php" class="btn btn-secondary"><i class="material-icons">&#xE147;</i> <span>Add New User</span></a>
@@ -213,7 +213,7 @@ while ($row=mysqli_fetch_array($ret)) {
 $cnt=$cnt+1;
 } } else {?>
 <tr>
-    <th style="text-align:center; color:red;" colspan="6">No Record Found</th>
+    <th style="text-align:center; color:red;" colspan="6">No Records Found</th>
 </tr>
 <?php } ?>                 
                 
